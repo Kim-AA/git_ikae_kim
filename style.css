@@ -1,0 +1,132 @@
+body{
+}
+content{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    font-family: Avenir;
+    display: flex;
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+header {
+    background-image: url('images/header.jpeg');
+    height: 800px;
+    background-size: cover;
+
+  }
+
+  .header_menu{
+      display: flex;
+      flex-direction: row;
+  }
+  .image_logo {
+      display: flex;
+      align-items: flex-start;
+      width: 100px;
+      height: 50px;
+  }
+
+  .image_logo img {
+      width: 100%;
+  }
+
+  nav{
+      display: flex;
+      justify-content: space-between;
+      
+  }
+
+  li {
+      text-decoration: none;
+      
+  }
+
+  ul{
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      color: #4a4a4a;
+      opacity: 50%;
+      justify-content: space-between;
+  }
+
+  a:hover {
+    color: #4a4a4a;
+  }
+
+  
+  .link_search_logo {
+    color: #4a4a4a;
+    width: 10px;
+    height: 10px;
+  }
+
+  .header_title {
+      display: flex;
+      justify-content: center;
+      font-size: 90px;
+  }
+
+  .main_top_title {
+    background-color: #f3f3ff;
+    justify-content: flex-start;
+}
+  .main_top_content {
+      display: flex;
+      height: 20%;
+  }
+
+  .plant_right_image {
+    background-image: url('images/image.jpeg');
+    background-size: cover;
+    width: 50%;
+  }
+
+  .main_bottom {
+      height: 50%x;
+      width: 100%;
+  }
+
+  .main_bottom_title {
+      background-color: #f3f3ff;
+      justify-content: flex-start;
+  }
+
+  .pictures {
+      display: flex;
+      flex-direction: row;
+      color: white;
+  }
+
+  .bathroom {
+    background-image: url(images/bathroom.jpeg);
+    background-size: cover;
+  }
+
+  .kitchen {
+    background-image: url(images/kitchen.jpeg);
+    background-size: cover;
+  }
+
+  .bedroom{
+    background-image: url(images/bedroom.jpeg);
+    background-size: cover;
+  }
+
+  .living_room {
+    background-image: url(images/livingroom.jpeg);
+    background-size: cover;
+  }
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #f3f3ff;
+    color: black;
+    opacity: 40%;
+    font-size: 40px;
+
+}
