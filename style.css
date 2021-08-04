@@ -15,12 +15,14 @@ header {
     background-image: url('images/header.jpeg');
     height: 800px;
     background-size: cover;
+    width: 100%;
 
   }
 
   .header_menu{
       display: flex;
       flex-direction: row;
+      justify-content: space-between;
   }
   .image_logo {
       display: flex;
@@ -57,11 +59,14 @@ header {
     color: #4a4a4a;
   }
 
-  
   .link_search_logo {
-    color: #4a4a4a;
-    width: 10px;
-    height: 10px;
+      display: flex;
+      width: 20px;
+      height: 20px;
+  }
+  
+  .link_search_logo img {
+    width: 100%;
   }
 
   .header_title {
