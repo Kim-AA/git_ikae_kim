@@ -11,9 +11,11 @@ content{
 
 header {
     background-image: url('images/header.jpeg');
-    height: 800px;
     background-size: cover;
-    width: 100%;
+    position: relative;
+    background-position: center;
+    max-width: 100%;
+    margin: 0%;
 
   }
 
@@ -73,6 +75,10 @@ header {
       font-size: 90px;
   }
 
+  main {
+    margin: 0%;
+  }
+
   .main_top_title {
     background-color: #f3f3ff;
     justify-content: flex-start;
@@ -82,10 +88,23 @@ header {
       height: 20%;
   }
 
-  .plant_right_image {
-    background-image: url('images/image.jpeg');
-    background-size: cover;
-    width: 50%;
+  .main_top_left{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main_top_center{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main_top_right {
+    display: flex;
+  }
+
+  .main_top_right img {
+    max-width: 150%;
+    position: relative;
   }
 
   .main_bottom {
