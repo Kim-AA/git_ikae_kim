@@ -1,154 +1,40 @@
-content{
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    font-family: Avenir;
-    display: flex;
-    width: 100%;
-    max-width: 1080px;
-    margin: 0 auto;
+.container{
+  display: flex;
+  flex-flow: wrap;
+  margin: auto;
+
 }
 
-header {
-    background-image: url('images/header.jpeg');
-    background-size: cover;
-    position: relative;
-    background-position: center;
-    max-width: 100%;
-    margin: 0%;
+header{
+  background-color: red;
+  height: 50vh;
+  width: 100%;
+  position: relative;
 
-  }
-
-  .header_menu{
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-  }
-  .image_logo {
-      display: flex;
-      align-items: flex-start;
-      width: 100px;
-      height: 50px;
-  }
-
-  .image_logo img {
-      width: 100%;
-  }
-
-  nav{
-      display: flex;
-      justify-content: space-between;
-      
-  }
-
-  li {
-      text-decoration: none;
-      
-  }
-
-  ul{
-      list-style: none;
-      display: flex;
-      flex-direction: row;
-      color: #4a4a4a;
-      opacity: 50%;
-      justify-content: space-between;
-  }
-
-  a:hover {
-    color: #4a4a4a;
-  }
-
-  .link_search_logo {
-      display: flex;
-      width: 20px;
-      height: 20px;
-  }
-  
-  .link_search_logo img {
-    width: 100%;
-  }
-
-  .header_title {
-      display: flex;
-      justify-content: center;
-      font-size: 90px;
-  }
-
-  main {
-    margin: 0%;
-  }
-
-  .main_top_title {
-    background-color: #f3f3ff;
-    justify-content: flex-start;
 }
-  .main_top_content {
-      display: flex;
-      height: 20%;
-  }
 
-  .main_top_left{
-    display: flex;
-    flex-direction: column;
-  }
+main{
+  background-color: yellow;
+  height: 70vh;
+  width: 100%;
+  position: relative;
+  flex-direction: column;
+  padding: 5%;
+}
 
-  .main_top_center{
-    display: flex;
-    flex-direction: column;
-  }
+footer{
+  background-color: green;
+  height: 10vh;
+  width: 100%;
+  position: relative;
+}
 
-  .main_top_right {
-    display: flex;
-  }
+.section1{
+  height: 20vh;
+  background-color: black;
+}
 
-  .main_top_right img {
-    max-width: 150%;
-    position: relative;
-  }
-
-  .main_bottom {
-      height: 50%x;
-      width: 100%;
-  }
-
-  .main_bottom_title {
-      background-color: #f3f3ff;
-      justify-content: flex-start;
-  }
-
-  .pictures {
-      display: flex;
-      flex-direction: row;
-      color: white;
-  }
-
-  .bathroom {
-    background-image: url(images/bathroom.jpeg);
-    background-size: cover;
-  }
-
-  .kitchen {
-    background-image: url(images/kitchen.jpeg);
-    background-size: cover;
-  }
-
-  .bedroom{
-    background-image: url(images/bedroom.jpeg);
-    background-size: cover;
-  }
-
-  .living_room {
-    background-image: url(images/livingroom.jpeg);
-    background-size: cover;
-  }
-
-footer {
-    display: flex;
-    justify-content: center;
-    background-color: #f3f3ff;
-    color: black;
-    opacity: 40%;
-    font-size: 40px;
-
+.section2{
+  height: 50vh;
+  background-color: white;
 }
