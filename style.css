@@ -1,8 +1,16 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
 
 .container{
   display: flex;
   flex-direction: column;
+  width: 100%;
   margin: auto;
+  background-color: #F7F5F2;
 
 }
 
@@ -16,32 +24,56 @@ header{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  position: relative;
 
 }
 
 .menu{
+  position: relative;
+  margin-top: 2%;
   display: flex;
-  align-content: space-between;
 }
 
 .logo{
-  height: 10vh;
-  width: 30vh;
+  height: 8vh;
+  width: 20vh;
   background-color: turquoise;
+  display: flex;
+  margin-left: 8%;
+}
+
+.logo:hover{
+  cursor: pointer;
 }
 
 nav{
   display: flex;
   flex-direction: row;
-  background-color: violet;
-  align-content: space-around;
+  flex: auto;
+  margin-left: 40%;
 }
 
 nav button{
   display: flex;
-  background-color: yellow;
+  color: #4a4a4a;
   border: none;
+  width: 300px;
+  height: 80px;
+  font-size: 40px;
+  justify-content: center;
+  padding: 2%;
 
+}
+
+nav button:hover{
+  cursor: pointer;
+  background-color: 	rgb(255,255,255, 0.3);
+  border-radius: 50px;
+
+}
+
+.b1{
+  font-weight: bold;
 }
 
 h1{
@@ -49,10 +81,11 @@ h1{
   display: flex;
   justify-content: center;
   font-size: 8vh;
+  opacity: 65%;
+  margin-top: 200px;
 }
 
 main{
-  background-color: #f3f3ff;
   height: 100vh;
   width: 100%;
   position: relative;
@@ -62,18 +95,23 @@ main{
 
 h2 {
   padding: 0% 8%;
-  background-color: #f3f3ff;
   font-size: 4vh;
+  color: #4D4D4D;
+  margin: 1%;
 
 }
 
 h3{
   font-size: 2vh;
+  color: #A7A7A6;
+}
+
+p {
+  color: #535353;
 }
 
 .section1{
   height: 30vh;
-  background-color: #f3f3ff;
   display: flex;
   padding: 0% 8%;
   margin: 0%;
@@ -82,25 +120,32 @@ h3{
 
 .left{
   background-color #B0A3;
-  width: 80%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.left p {
+  display: flex;
 }
 
 .right{
   background-color: teal;
-  width: 40%;
+  width: 60%;
 }
 
 .right img {
   max-height: 100%;
+  max-width: 100%;
 }
 
 .ulsection1{
-  background-color: teal;
-  width: 40%;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
 }
 
 .ulsection1 li{
-  display: flex;
   max-height: 100%;
   list-style: none;
 }
@@ -108,7 +153,7 @@ h3{
 
 .section2{
   height: 70vh;
-  background-color: white;
+  background-color: #F3F3F3;
   display: inline-block;
   width: 100%;
   margin-top: 0%;
@@ -119,7 +164,7 @@ h3{
 .ulsection2 {
   display: flex;
   flex-direction: row;
-  background-color: tomato;
+  background-color: black;
   list-style: none;
   height: 100%;
   width: 100%;
@@ -128,19 +173,31 @@ h3{
 .ulsection2 button{
   font-size: 4vh;
   font-weight: bold;
-  width: 100%;
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
   background-size: cover;
+  width: 100%;
   border: none;
+  margin: 0%;
 
+}
+
+.ulsection2 button:hover{
+  cursor: pointer;
+  
 }
 
 .a{
   background-image: url(images/bathroom.jpeg);
-  
+
+}
+
+.a:hover{
+  margin: 0%;
+	transition: .3s ease-in-out;
+	transform: scale(1.1);
 }
 
 .b{
@@ -158,19 +215,19 @@ h3{
 
 footer{
   display: flex;
-  background-color: black;
+  justify-content: center;
+  background-color: white;
   height: 10vh;
   width: 100%;
   position: relative;
 }
 
 footer p {
-  position: absolute;
   display: flex;
-  justify-content: center;
-  background-color: #f3f3ff;
+  align-items: center;
+  background-color: beige;
   color: black;
-  opacity: 40%;
-  font-size: 30px;
+  opacity: 45%;
+  font-size: 60px;
   
 }
