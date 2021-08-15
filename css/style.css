@@ -194,7 +194,7 @@ p {
 }
 
 
-.ulsection2 {
+.imgsection2 {
   display: flex;
   flex-direction: row;
   background-color: black;
@@ -203,7 +203,14 @@ p {
   width: 100%;
 }
 
-.ulsection2 button{
+.imgsection2 p{
+  font-size: 5vh;
+  font-weight: bold;
+  color:white;
+  padding-top: 70%;
+}
+
+.imgsection2 button{
   display: flex;
   justify-content: center;
   background-size: cover;
@@ -212,22 +219,15 @@ p {
   opacity: 80%;
 }
 
-.ulsection2 button:hover{
+.imgsection2 button:hover{
   cursor: pointer;
   transition: ease-in-out 0.3s;
   opacity: 100%;
 }
 
-.ulsection2 p{
-  font-size: 5vh;
-  font-weight: bold;
-  color:white;
-  padding-top: 70%;
-}
-
 button p:hover{
-  transition: ease-out 0.4s;
-  font-size: 8vh;
+  transition: ease-out 0.3s;
+  font-size: 9vh;
   opacity: 0;
 }
 
